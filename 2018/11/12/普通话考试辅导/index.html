@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="来自农村的穷小子">
 <meta property="og:description" content="100分，97-100一级甲等，92-96一级乙等，87-92二级甲等，60以下没有证书。一级甲等做为省级以上出镜播音员。一级乙等播音教学及文艺类主持及北京语文，二甲是国家规定语文老师，二乙80分，绝大多数老师。三甲公务员。丢了重考。国家立法考试。一、单音节100个，10分，3.5分钟。慢了扣0.5-1分。不考轻声儿化，要满响准二、要连读，考变调四、不要说重复（别人说过的，抄袭来背诵的）的，网上抄">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-12T10:50:30.584Z">
+<meta property="og:updated_time" content="2018-11-13T03:06:16.847Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="普通话考试辅导">
 <meta name="twitter:description" content="100分，97-100一级甲等，92-96一级乙等，87-92二级甲等，60以下没有证书。一级甲等做为省级以上出镜播音员。一级乙等播音教学及文艺类主持及北京语文，二甲是国家规定语文老师，二乙80分，绝大多数老师。三甲公务员。丢了重考。国家立法考试。一、单音节100个，10分，3.5分钟。慢了扣0.5-1分。不考轻声儿化，要满响准二、要连读，考变调四、不要说重复（别人说过的，抄袭来背诵的）的，网上抄">
@@ -172,6 +172,33 @@
         
       </header>
     
+	  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <p>100分，97-100一级甲等，92-96一级乙等，87-92二级甲等，60以下没有证书。一级甲等做为省级以上出镜播音员。一级乙等播音教学及文艺类主持及北京语文，二甲是国家规定语文老师，二乙80分，绝大多数老师。三甲公务员。丢了重考。<br>国家立法考试。<br>一、单音节100个，10分，3.5分钟。慢了扣0.5-1分。不考轻声儿化，要满响准<br>二、要连读，考变调<br>四、不要说重复（别人说过的，抄袭来背诵的）的，网上抄的扣六分，有重复的酌情扣分</p>
@@ -299,6 +326,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -313,6 +353,7 @@
   
 
   
+
 
 
           </div>

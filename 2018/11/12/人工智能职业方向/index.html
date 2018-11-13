@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="来自农村的穷小子">
 <meta property="og:description" content="人工智能职业方向学习路线建议 课程名称 难易程度理论基础 大数据的统计学基础 ★理论基础 大数据的矩阵计算基础 ★进阶工具课 R语言数据分析、展现与实例 ★进阶工具课 机器学习 ★★★进阶工具课 Python数据分析 ★进阶工具课 Python机器学习 ★★★进阶工具课 机器学习及其matlab实现—从基础到实践 ★★进阶工具课 GPU并行计算与CUDA编程 ★★进阶工具课 开源计算机视觉库Ope">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-12T11:02:58.683Z">
+<meta property="og:updated_time" content="2018-11-13T03:06:21.592Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="人工智能职业方向">
 <meta name="twitter:description" content="人工智能职业方向学习路线建议 课程名称 难易程度理论基础 大数据的统计学基础 ★理论基础 大数据的矩阵计算基础 ★进阶工具课 R语言数据分析、展现与实例 ★进阶工具课 机器学习 ★★★进阶工具课 Python数据分析 ★进阶工具课 Python机器学习 ★★★进阶工具课 机器学习及其matlab实现—从基础到实践 ★★进阶工具课 GPU并行计算与CUDA编程 ★★进阶工具课 开源计算机视觉库Ope">
@@ -172,6 +172,33 @@
         
       </header>
     
+	  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <p>人工智能职业方向<br>学习路线建议 课程名称 难易程度<br>理论基础 大数据的统计学基础 ★<br>理论基础 大数据的矩阵计算基础 ★<br>进阶工具课 R语言数据分析、展现与实例 ★<br>进阶工具课 机器学习 ★★★<br>进阶工具课 Python数据分析 ★<br>进阶工具课 Python机器学习 ★★★<br>进阶工具课 机器学习及其matlab实现—从基础到实践 ★★<br>进阶工具课 GPU并行计算与CUDA编程 ★★<br>进阶工具课 开源计算机视觉库OpenCV从入门到应用 ★★<br>实战应用课 推荐系统 ★★<br>实战应用课 Spark MLlib 机器学习算法与源码解析 ★★★<br>实战应用课 深度学习框架Caffe学习与应用 ★★★<br>实战应用课 自己动手实践神经网络 ★★<br>实战应用课 计算机视觉算法详解与实战开发 ★★★<br>实战应用课 Python自然语言处理 ★★★<br>登峰造极高端课 人工智能前沿系列之生成式对抗网络 ★★★★<br>登峰造极高端课 机器读心术之文本挖掘与自然语言处理 ★★★★<br>登峰造极高端课 机器读心术之神经网络与深度学习 ★★★★</p>
@@ -290,6 +317,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -304,6 +344,7 @@
   
 
   
+
 
 
           </div>

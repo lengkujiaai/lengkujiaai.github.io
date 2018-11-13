@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="来自农村的穷小子">
 <meta property="og:description" content="TestNG是一个功能强大的测试框架，是Junit的一个增强版本。NG 代表“下一代”。TestNG框架提供了以下功能和解答我们的问题：“为什么我们需要TestNG”？1、注释可以帮助我们来组织使测试更容易。2、灵活的测试配置。3、测试例可以更容易地进行分组4、可以使用TestNG实现测试并行5、支持数据驱动测试6、内置的报告">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-12T10:58:37.732Z">
+<meta property="og:updated_time" content="2018-11-13T03:05:57.943Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="什么是TestNG">
 <meta name="twitter:description" content="TestNG是一个功能强大的测试框架，是Junit的一个增强版本。NG 代表“下一代”。TestNG框架提供了以下功能和解答我们的问题：“为什么我们需要TestNG”？1、注释可以帮助我们来组织使测试更容易。2、灵活的测试配置。3、测试例可以更容易地进行分组4、可以使用TestNG实现测试并行5、支持数据驱动测试6、内置的报告">
@@ -172,6 +172,33 @@
         
       </header>
     
+	  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <p>TestNG是一个功能强大的测试框架，是Junit的一个增强版本。NG 代表“下一代”。<br>TestNG框架提供了以下功能和解答我们的问题：“为什么我们需要TestNG”？<br>1、注释可以帮助我们来组织使测试更容易。<br>2、灵活的测试配置。<br>3、测试例可以更容易地进行分组<br>4、可以使用TestNG实现测试并行<br>5、支持数据驱动测试<br>6、内置的报告</p>
@@ -299,6 +326,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -313,6 +353,7 @@
   
 
   
+
 
 
           </div>

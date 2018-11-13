@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="来自农村的穷小子">
 <meta property="og:description" content="5天基础—-5天面向对象—-2天高级应用——————————————–5天基础———————————————————-java—-SE—-客户端程序      —-EE—–服务器端程序      —ME—-手机程序 Java内存结构：栈——————局部信息堆——————对象code方法区——类的信息，静态方法 基本类型——-8种引用类型（很多）——基本5种—–类、接口、数组、枚举、标注import">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-12T10:53:54.846Z">
+<meta property="og:updated_time" content="2018-11-13T03:05:21.638Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="2017年的java学习笔记">
 <meta name="twitter:description" content="5天基础—-5天面向对象—-2天高级应用——————————————–5天基础———————————————————-java—-SE—-客户端程序      —-EE—–服务器端程序      —ME—-手机程序 Java内存结构：栈——————局部信息堆——————对象code方法区——类的信息，静态方法 基本类型——-8种引用类型（很多）——基本5种—–类、接口、数组、枚举、标注import">
@@ -172,6 +172,33 @@
         
       </header>
     
+	  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#5天基础—-5天面向对象—-2天高级应用"><span class="toc-number">1.</span> <span class="toc-text">5天基础—-5天面向对象—-2天高级应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#——————————————–5天基础———————————————————"><span class="toc-number">2.</span> <span class="toc-text">——————————————–5天基础———————————————————-</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#子类——运行时类型——JVM理解"><span class="toc-number">3.</span> <span class="toc-text">子类——运行时类型——JVM理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#——————————————–5天面向对象—————————————————–"><span class="toc-number">4.</span> <span class="toc-text">——————————————–5天面向对象—————————————————–</span></a></li></ol>
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="5天基础—-5天面向对象—-2天高级应用"><a href="#5天基础—-5天面向对象—-2天高级应用" class="headerlink" title="5天基础—-5天面向对象—-2天高级应用"></a>5天基础—-5天面向对象—-2天高级应用</h2><h2 id="——————————————–5天基础———————————————————"><a href="#——————————————–5天基础———————————————————" class="headerlink" title="——————————————–5天基础———————————————————-"></a>——————————————–5天基础———————————————————-</h2><p>java—-SE—-客户端程序<br>      —-EE—–服务器端程序<br>      —ME—-手机程序</p>
@@ -320,6 +347,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#5天基础—-5天面向对象—-2天高级应用"><span class="toc-number">1.</span> <span class="toc-text">5天基础—-5天面向对象—-2天高级应用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#——————————————–5天基础———————————————————"><span class="toc-number">2.</span> <span class="toc-text">——————————————–5天基础———————————————————-</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#子类——运行时类型——JVM理解"><span class="toc-number">3.</span> <span class="toc-text">子类——运行时类型——JVM理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#——————————————–5天面向对象—————————————————–"><span class="toc-number">4.</span> <span class="toc-text">——————————————–5天面向对象—————————————————–</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -334,6 +374,7 @@
   
 
   
+
 
 
           </div>

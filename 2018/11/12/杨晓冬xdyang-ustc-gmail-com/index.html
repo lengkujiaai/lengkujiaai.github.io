@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="来自农村的穷小子">
 <meta property="og:description" content="一、 绪论  为什么要写这篇文章图像处理与计算机视觉基础，经典以及最近发展 从2002年到现在，接触图像快十年了。虽然没有做出什么很出色的工作，不过在这个领域摸爬滚打了十年之后，发现自己对图像处理和计算机视觉的感情越来越深厚。下班之后看看相关的书籍和文献是一件很惬意的事情。平常的一大业余爱好就是收集一些相关的文章，尤其是经典的文章，到现在我的电脑里面已经有了几十G的文章。写这个文档的想法源于我前一">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-12T10:48:15.056Z">
+<meta property="og:updated_time" content="2018-11-13T02:53:06.170Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="杨晓冬xdyang.ustc@gmail.com">
 <meta name="twitter:description" content="一、 绪论  为什么要写这篇文章图像处理与计算机视觉基础，经典以及最近发展 从2002年到现在，接触图像快十年了。虽然没有做出什么很出色的工作，不过在这个领域摸爬滚打了十年之后，发现自己对图像处理和计算机视觉的感情越来越深厚。下班之后看看相关的书籍和文献是一件很惬意的事情。平常的一大业余爱好就是收集一些相关的文章，尤其是经典的文章，到现在我的电脑里面已经有了几十G的文章。写这个文档的想法源于我前一">
@@ -172,6 +172,33 @@
         
       </header>
     
+	  <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <p>一、 绪论</p>
@@ -325,8 +352,8 @@
     </a>
   
   
-    <a href="/2018/11/12/炼数成金-黄志洪老师经典语录/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">炼数成金_黄志洪老师经典语录</div>
+    <a href="/2018/11/07/华硕的第一篇文章/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">面试指南</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -346,6 +373,19 @@
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    目录，不存在的…
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
@@ -360,6 +400,7 @@
   
 
   
+
 
 
           </div>
